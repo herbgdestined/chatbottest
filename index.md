@@ -19,26 +19,6 @@
 	};
 </script>
 <script type='text/javascript' src='https://vivaenergy--uat20.sandbox.my.site.com/ESWVivaRetailChat1713753160471/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-	<button id="launchChatButton" onclick="launchChat()">
-		Chat with our Agents
-	</button>
-	<script>
-	function launchChat() {
-		embeddedservice_bootstrap.utilAPI.launchChat()
-		.then(() => {
-			console.log(
-				'Inside Launch Chat'
-			);
-		}).catch(() => {
-			console.log(
-				'Inside Launch Chat catch Block'
-			);
-		}).finally(() => {
-			console.log(
-				'Inside Launch Chat finally Block'
-			);
-		});
-		}
-	</script>
+	
     </body>
 </html>
